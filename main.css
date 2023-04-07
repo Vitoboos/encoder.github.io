@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inputSection{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 100vh;
+}
+
+.userInput{
+    background-color: royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: dashed white thick;
+}
+
+.userInput h1{
+    color: white;
+}
+
+.userInput textarea{
+    display: block;
+    margin: 1vh 0px;
+    width: 80%;
+    height: 50vh;
+}
+
+.userInput button{
+    background-color: white ;
+    margin: 0.5vh 0px;
+    padding: 2vh 2vw;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0,35) 4px 4px;
+}
+
+.userInput button:hover{
+    color: white;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.serverInput{
+    display: flex;
+    flex-direction: column;
+}
+
+.serverText{
+    margin: 1vh 1vw;
+    padding: 2vh 0px;
+    background-color: white;
+    border: solid black thin;
+}
+
+.serverInput button{
+    padding: 2vh 0px;
+    background-color: aliceblue;
+    margin: 0.5vh 3vw;
+    border: solid rgb(204, 210, 214) thin;
+    cursor: pointer;
+}
